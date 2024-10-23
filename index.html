@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Time Management</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Study Time Manager</h1>
+        
+        <!-- Timer Section -->
+        <div class="timer-section">
+            <h2>Study Timer</h2>
+            <div id="timer-display">25:00</div>
+            <button id="start-timer">Start</button>
+            <button id="reset-timer">Reset</button>
+        </div>
+        
+        <!-- Study Plan Section -->
+        <div class="plan-section">
+            <h2>Study Plan</h2>
+            <input type="text" id="goal-input" placeholder="Enter your study goal">
+            <button id="add-goal">Add Goal</button>
+            <ul id="goal-list"></ul>
+        </div>
+        
+        <!-- Reminder Section -->
+        <div class="reminder-section">
+            <h2>Set Reminder</h2>
+            <input type="time" id="reminder-time">
+            <button id="set-reminder">Set Reminder</button>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
